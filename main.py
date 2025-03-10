@@ -6,8 +6,8 @@ import re
 # Connect to MySQL Database
 conn = mysql.connector.connect(
     host="localhost",
-    user="aadish",
-    password="mypassword",
+    user="root",
+    password="1",
     database="user_data",
 )
 cursor = conn.cursor()
